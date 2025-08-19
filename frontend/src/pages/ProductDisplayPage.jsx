@@ -5,7 +5,7 @@ import AxiosToastError from '../utils/AxiosToastError'
 import { useParams } from 'react-router-dom'
 import { FaAngleRight,FaAngleLeft } from "react-icons/fa6";
 import { DisplayPriceInRupees } from '../utils/DisplayPriceInRupees'
-import PriceWithDiscount from '../utils/PriceWithDiscount'
+import PriceWithDiscount from '../utils/pricewithDiscount'
 import AddToCartButton from '../components/AddToCartButton'
 import Divider from '../components/Divider'
 import image1 from '../assets/minute_delivery.png'

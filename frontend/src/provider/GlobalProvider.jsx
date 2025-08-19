@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from "react-redux";
 import {handleAddItemCart} from "../store/cartProducts"
 import AxiosToastError from "../utils/AxiosToastError";
 import toast from "react-hot-toast";
-import PriceWithDiscount from "../utils/PriceWithDiscount";
+import PriceWithDiscount from "../utils/pricewithDiscount";
 import { setOrder } from "../store/orderSlice";
 import { handleAddAddress } from "../store/addressSlice";
 

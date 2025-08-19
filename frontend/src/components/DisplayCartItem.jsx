@@ -6,7 +6,7 @@ import { DisplayPriceInRupees } from '../utils/DisplayPriceInRupees'
 import { FaCaretRight } from "react-icons/fa";
 import { useSelector } from 'react-redux'
 import AddToCartButton from './AddToCartButton'
-import PriceWithDiscount from '../utils/PriceWithDiscount'
+import PriceWithDiscount from '../utils/pricewithDiscount'
 import imageEmpty from '../assets/empty_cart.webp'
 import toast from 'react-hot-toast'
 
