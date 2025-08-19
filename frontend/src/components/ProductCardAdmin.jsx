@@ -9,7 +9,7 @@ import toast from 'react-hot-toast'
 const ProductCardAdmin = ({ data, fetchProductData }) => {
   const [editOpen,setEditOpen]= useState(false)
   const [openDelete,setOpenDelete] = useState(false)
-
+  
   const handleDeleteCancel  = ()=>{
       setOpenDelete(false)
   }

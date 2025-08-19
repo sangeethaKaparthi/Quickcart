@@ -5,7 +5,7 @@ import AxiosToastError from '../utils/AxiosToastError'
 import { useParams } from 'react-router-dom'
 import { FaAngleRight,FaAngleLeft } from "react-icons/fa6";
 import { DisplayPriceInRupees } from '../utils/DisplayPriceInRupees'
-import { pricewithDiscount } from '../utils/PriceWithDiscount'
+import PriceWithDiscount from '../utils/PriceWithDiscount'
 import AddToCartButton from '../components/AddToCartButton'
 import Divider from '../components/Divider'
 import image1 from '../assets/minute_delivery.png'
@@ -137,7 +137,7 @@ const ProductDisplayPage = () => {
               <p className=''>Price</p> 
               <div className='flex items-center gap-2 lg:gap-4'>
                 <div className='border border-green-600 px-4 py-2 rounded bg-green-50 w-fit'>
-                    <p className='font-semibold text-lg lg:text-xl'>{DisplayPriceInRupees(pricewithDiscount(data.price,data.discount))}</p>
+                    <p className='font-semibold text-lg lg:text-xl'>{DisplayPriceInRupees(PriceWithDiscount(data.price,data.discount))}</p>
                 </div>
                 {
                   data.discount && (

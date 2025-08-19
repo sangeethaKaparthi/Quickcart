@@ -3,9 +3,9 @@ import SummaryApi from '../common/SummaryApi'
 import AxiosToastError from '../utils/AxiosToastError'
 import Axios from '../utils/Axios'
 import Loading from '../components/Loading'
-import ProductCardAdmin from '../components/ProductCardAdmin'
+import PriceWithDiscount from "../utils/priceWithDiscount";
 import { IoSearchOutline } from "react-icons/io5";
-
+import ProductCardAdmin from '../components/ProductCardAdmin'
 
 const ProductAdmin = () => {
   const [productData,setProductData] = useState([])
